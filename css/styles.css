@@ -155,3 +155,49 @@ form button:hover {
 .agreement a:hover {
     text-decoration: underline;
 }
+
+/* MOBILE VIEW */
+@media screen and (max-width: 719px) {
+    .form-section h2 {
+        font-size: 1.5em;
+    }
+
+    .form-section p {
+        font-size: 0.9em;
+    }
+}
+
+/* DESKTOP VIEW */
+@media screen and (min-width: 720px) and (max-width: 1023px) {
+    .form-section h2 {
+        font-size: 1.6em;
+    }
+
+    .form-section p {
+        font-size: 1em;
+    }
+}
+
+/* LARGEST VIEW */
+@media screen and (min-width: 1024px) {
+    main {
+        max-width: 1024px;
+    }
+
+    .image-section {
+        width: 50%;
+        margin-right: 20px;
+    }
+
+    .form-section {
+        width: 50%;
+    }
+
+    .form-section h2 {
+        font-size: 2em;
+    }
+
+    .form-section p {
+        font-size: 1.2em;
+    }
+}
